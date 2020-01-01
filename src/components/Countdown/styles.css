@@ -1,0 +1,6 @@
+.poll-remain-time span{
+    font-size: 1.7em;
+    font-weight: lighter;
+    color: rgb(255, 145, 20);
+    margin: 5px 0px;
+}

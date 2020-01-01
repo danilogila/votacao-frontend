@@ -1,0 +1,22 @@
+.poll-message {
+    text-transform: none;
+    padding-bottom: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #68625b;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.poll-message span{
+    color: #333333;
+    font-weight: 700;
+}
+
+.poll-message::before{
+    content: url('../../../assets/bbb-icon.png'); 
+    position: relative;
+    z-index: 100000;
+    left: -10px;
+    top: 10px;
+}

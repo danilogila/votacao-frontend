@@ -1,0 +1,135 @@
+
+.feedback-message{
+    word-break: break-word;
+    text-align: initial;
+    font-size: 21px;
+    font-weight: 300;
+    color: #323232;
+    line-height: 25px;
+    text-align: center;
+    margin: 45px 0px 30px;
+}
+
+.feedback-message span{
+    color: #333333;
+    font-weight: 600;
+}
+
+.option-avatar{
+    border: none;
+}
+
+.teste{
+    display: flex;
+    min-height: 280px;
+    height: 200px;
+    max-height: 300px;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 -10%;
+}
+
+.avatar-content{
+    width: 300px;
+}
+
+.poll-statistics-wrapper{
+    height: 285px;
+    width: 285px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -19%;
+    display: flex;
+}
+
+
+
+.poll-remain-time{
+    width: 100%;
+    border-radius: 50%;
+    background-color: white;
+    margin: 15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 45px 0px;
+}
+
+.poll-remain-time p{
+    font-size: 12px;
+    color: #909090;	
+}
+
+.button {
+    color: white;
+    padding: 1px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 9px solid #ececec;
+    position: absolute;
+    top: -25px;
+    right: -20px;
+}
+
+.button::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+.button .icon {
+    background: url('../../../assets/close-button.png') no-repeat center;
+    background-size: 11px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    z-index: 99999999;
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+}  
+.button .span {
+    float: left;
+    width: 20px;
+    height: 20px;
+} 
+
+.fade-material::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 1px;
+    border: 1px solid #ccc;
+}
+
+.feedback-wrapper{
+    width: 100%;
+    /* overflow: hidden; */
+    position: relative;
+    /* padding: 16px 32px 0px; */
+    background: white;
+    /* z-index: 9999; */
+}
+
+.feedback-main-content{
+    border: "1px solid red";
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 16px 32px 0px;
+}

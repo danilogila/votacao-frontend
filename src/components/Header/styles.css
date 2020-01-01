@@ -1,0 +1,18 @@
+header#main-header{
+    height: 60px;
+    background: #EC7D00;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-header a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
