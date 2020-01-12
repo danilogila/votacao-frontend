@@ -47,20 +47,20 @@ export default class Chart extends Component {
         let data = this.calculatePercentageVoteData()
         return [
             {
-              "id": "c",
+              "id": "1",
               "value": parseInt(data[0]),
-              "label": "c",
-              "color": "black"
+              "color": "black",
+              "label": "Participante 1"
             },
             {
-              "id": "ruby",
-              "label": "ruby",
+              "id": "2",
               "value": parseInt(data[1]),
-              "color": "hsl(215, 70%, 50%)"
+              "color": "hsl(215, 70%, 50%)",
+              "label": "Participante 2"
             }
           ]
     }
-    
+
     render(){
         return (
             <div className={"pie-chart"} >
@@ -89,40 +89,7 @@ export default class Chart extends Component {
                     motionStiffness={90}
                     motionDamping={15}
                     isInteractive={true}
-                    fill={[
-                        {
-                            match: {
-                                id: 'ruby'
-                            },
-                            id: 'dots'
-                        },
-                        {
-                            match: {
-                                id: 'c'
-                            },
-                            id: 'dots'
-                        }
-                    ]}
-                    legends={[
-                        {
-                            anchor: 'bottom',
-                            direction: 'row',
-                            translateY: 56,
-                            itemWidth: 100,
-                            itemHeight: 18,
-                            itemTextColor: '#999',
-                            symbolSize: 18,
-                            symbolShape: 'circle',
-                            effects: [
-                                {
-                                    on: 'hover',
-                                    style: {
-                                        itemTextColor: '#000'
-                                    }
-                                }
-                            ]
-                        }
-                    ]}
+
                 />
             </div>
         )
