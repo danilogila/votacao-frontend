@@ -1,12 +1,22 @@
+.empty-poll-list-message{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: #696969;
+}
+
 .poll-list{
     width: 100%;
-    margin: 20px 0 auto;
+    margin: 20px auto 0px;
     padding: 0 20px;
+    padding-bottom: 5.5em;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-    height: 100vh;
+    max-width: 900px;
 }
 
 
