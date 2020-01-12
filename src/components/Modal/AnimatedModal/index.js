@@ -28,7 +28,7 @@ const useStyles = makeStyles(theme => ({
     },
 }));
 
-export default function AnimatedModal({ openModal, updateModal, pollData, optionIndex}) {
+export default function AnimatedModal({ openModal, updateModal, pollData, optionIndex, reloadRecaptcha }) {
     const classes = useStyles();
     const [open, setOpen] = useState(openModal);
     const optionsData = pollData.choices
@@ -41,6 +41,7 @@ export default function AnimatedModal({ openModal, updateModal, pollData, option
     const handleClose = () => {
         updateModal(false)
         setOpen(false);
+        reloadRecaptcha()
     };
 
     return (
