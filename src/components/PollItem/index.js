@@ -8,7 +8,7 @@ function PollItem({ poll }){
     }
     
     return(
-        <article key={poll._id}>
+        <article>
             <section className="poll-thumbnail">
                 <picture>
                     <img srcSet={poll.thumbnail} alt="Votação BBB" />
