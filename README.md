@@ -1,6 +1,6 @@
-# Desafio Globo.com (Frontend)
+# App Votação (Frontend)
 
-Frontend do desafio da Globo.com que consiste em recriar a votação de eliminação de um candidato do BBB.
+Frontend da app de votação feita em React
 
 ## Instalação
 
